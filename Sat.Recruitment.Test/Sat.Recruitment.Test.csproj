@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -15,7 +15,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Sat.Recruitment.Api\Sat.Recruitment.Api.csproj" />
     <ProjectReference Include="..\Sat.Recruitment.Business\Sat.Recruitment.Business.csproj" />
+    <ProjectReference Include="..\Sat.Recruitment.Data\Sat.Recruitment.Data.csproj" />
+    <ProjectReference Include="..\Sat.Recruitment.Dependencies\Sat.Recruitment.Dependencies.csproj" />
+    <ProjectReference Include="..\Sat.Recruitment.Domain\Sat.Recruitment.Domain.csproj" />
   </ItemGroup>
 
 </Project>

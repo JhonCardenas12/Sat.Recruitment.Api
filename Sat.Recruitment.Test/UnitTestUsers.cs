@@ -12,6 +12,7 @@ namespace Sat.Recruitment.Test
         private IEmailService _emailService;
         private IFileService _readUsersService;
 
+        //public UserService(ILogger<User> logger, IEmailService emailService, IFileService readUsersService)
         [SetUp]
         public void Setup()
         {
